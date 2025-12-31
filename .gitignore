@@ -16,3 +16,15 @@ unity/src/project/SteamAudioUnity/Assets/Plugins/FMOD/platforms/win/lib/**/*.dll
 unity/src/project/SteamAudioUnity/Assets/Plugins/SteamAudio/Binaries/**/*.so
 unity/src/project/SteamAudioUnity/Assets/Plugins/SteamAudio/Binaries/**/*.dll
 unity/src/project/SteamAudioUnity/Assets/Plugins/SteamAudio/Binaries/**/*.bundle
+
+# WASM build artifacts
+core/build/wasm-*/
+core/bin/
+core/deps/
+
+# Integration outputs (copied by build system)
+unity/lib/
+unity/include/
+fmod/include/
+wwise/include/
+unity/src/project/SteamAudioUnity/Assets/Plugins/SteamAudio/Binaries/HTML5/
